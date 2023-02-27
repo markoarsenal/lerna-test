@@ -4,9 +4,10 @@
   "scripts": {
     "build": "npx lerna run build",
     "test": "npx lerna run test",
-    "publish": "npx lerna publish --no-private --since HEAD~1"
+    "publish": "lerna publish"
   },
   "devDependencies": {
+    "@lerna/publish": "^6.5.1",
     "lerna": "^6.5.1"
   },
   "workspaces": [
