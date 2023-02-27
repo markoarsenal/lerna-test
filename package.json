@@ -4,7 +4,7 @@
   "scripts": {
     "build": "npx lerna run build",
     "test": "npx lerna run test",
-    "publish": "lerna publish"
+    "publish": "lerna publish from-git"
   },
   "devDependencies": {
     "@lerna/publish": "^6.5.1",
