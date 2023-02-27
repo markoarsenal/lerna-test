@@ -4,7 +4,7 @@
   "scripts": {
     "build": "npx lerna run build",
     "test": "npx lerna run test",
-    "publish": "npx lerna publish --no-private --since HEAD~1"
+    "publish": "npx lerna publish --no-private --include-merged-tags"
   },
   "devDependencies": {
     "lerna": "^6.5.1"
